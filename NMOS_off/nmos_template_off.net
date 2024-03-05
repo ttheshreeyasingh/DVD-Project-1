@@ -11,11 +11,12 @@
 	
 * Description of the transistor
 Mn drain gate source body nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
 Vd 	drain	0		0
-Vg 	gate	alim		0
-Vs 	source	0		0
+Vg 	gate	0	    0
+Vs 	source	alim	0
 Vb 	body	0		0
-Vdd 	alim	0		0
+Vdd alim	0		0
 
 .dc TEMP 25 90 75 Vdd 0 1.1 0.05 
 
