@@ -1,0 +1,31 @@
+* CONDUCTION NMOS W *
+**********************
+
+.INCLUDE ../45nm_MGK.pm
+.OPTIONS GMIN=1e-020 ABSTOL=1e-18
+
+* Defining parameters
+.PARAM Lmin=45n
+.PARAM Wmin=180n
+.PARAM Ldiff=90n
+	
+* Description of the transistor
+Mn drain gate source body nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+Vd 	drain	0		0
+Vg 	gate	alim		0
+Vs 	source	0		0
+Vb 	body	0		0
+Vdd 	alim	0		0
+
+.dc TEMP 25 90 75 Vdd 0 1.1 0.05 
+
+* Analysis Parameters
+.CONTROL
+  run
+    set wr_vecnames
+    set wr_singlescale
+    print abs(V(alim)) V(drain) V(gate) V(source) V(body) I(Vd) I(Vg) I(Vs) I(Vb)
+    wrdata output_W_180n.txt abs(V(alim)) V(drain) V(gate) V(source) V(body) I(Vd) I(Vg) I(Vs) I(Vb)
+.ENDC
+
+.END

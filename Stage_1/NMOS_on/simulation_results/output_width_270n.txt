@@ -1,0 +1,153 @@
+******
+** ngspice-36 : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2020, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Sat Jan  1 18:54:42 UTC 2022
+******
+
+No compatibility mode selected!
+
+
+Circuit: * conduction nmos w *
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+
+No. of Data Rows : 23
+                             * conduction nmos w *
+                             DC transfer characteristic  Tue Mar  5 16:27:38  2024
+--------------------------------------------------------------------------------
+Index   temp-sweep      abs(v(alim))    v(drain)        v(gate)         
+--------------------------------------------------------------------------------
+0	2.500000e+01	0.000000e+00	0.000000e+00	0.000000e+00	
+1	2.500000e+01	5.000000e-02	0.000000e+00	5.000000e-02	
+2	2.500000e+01	1.000000e-01	0.000000e+00	1.000000e-01	
+3	2.500000e+01	1.500000e-01	0.000000e+00	1.500000e-01	
+4	2.500000e+01	2.000000e-01	0.000000e+00	2.000000e-01	
+5	2.500000e+01	2.500000e-01	0.000000e+00	2.500000e-01	
+6	2.500000e+01	3.000000e-01	0.000000e+00	3.000000e-01	
+7	2.500000e+01	3.500000e-01	0.000000e+00	3.500000e-01	
+8	2.500000e+01	4.000000e-01	0.000000e+00	4.000000e-01	
+9	2.500000e+01	4.500000e-01	0.000000e+00	4.500000e-01	
+10	2.500000e+01	5.000000e-01	0.000000e+00	5.000000e-01	
+11	2.500000e+01	5.500000e-01	0.000000e+00	5.500000e-01	
+12	2.500000e+01	6.000000e-01	0.000000e+00	6.000000e-01	
+13	2.500000e+01	6.500000e-01	0.000000e+00	6.500000e-01	
+14	2.500000e+01	7.000000e-01	0.000000e+00	7.000000e-01	
+15	2.500000e+01	7.500000e-01	0.000000e+00	7.500000e-01	
+16	2.500000e+01	8.000000e-01	0.000000e+00	8.000000e-01	
+17	2.500000e+01	8.500000e-01	0.000000e+00	8.500000e-01	
+18	2.500000e+01	9.000000e-01	0.000000e+00	9.000000e-01	
+19	2.500000e+01	9.500000e-01	0.000000e+00	9.500000e-01	
+20	2.500000e+01	1.000000e+00	0.000000e+00	1.000000e+00	
+21	2.500000e+01	1.050000e+00	0.000000e+00	1.050000e+00	
+22	2.500000e+01	1.100000e+00	0.000000e+00	1.100000e+00	
+
+                             * conduction nmos w *
+                             DC transfer characteristic  Tue Mar  5 16:27:38  2024
+--------------------------------------------------------------------------------
+Index   temp-sweep      v(source)       v(body)         i(vd)           
+--------------------------------------------------------------------------------
+0	2.500000e+01	0.000000e+00	0.000000e+00	-4.28624e-21	
+1	2.500000e+01	0.000000e+00	0.000000e+00	1.650471e-11	
+2	2.500000e+01	0.000000e+00	0.000000e+00	1.661329e-11	
+3	2.500000e+01	0.000000e+00	0.000000e+00	5.453400e-12	
+4	2.500000e+01	0.000000e+00	0.000000e+00	2.124939e-11	
+5	2.500000e+01	0.000000e+00	0.000000e+00	6.616498e-11	
+6	2.500000e+01	0.000000e+00	0.000000e+00	1.488158e-10	
+7	2.500000e+01	0.000000e+00	0.000000e+00	3.323450e-10	
+8	2.500000e+01	0.000000e+00	0.000000e+00	7.102731e-10	
+9	2.500000e+01	0.000000e+00	0.000000e+00	1.301496e-09	
+10	2.500000e+01	0.000000e+00	0.000000e+00	2.123343e-09	
+11	2.500000e+01	0.000000e+00	0.000000e+00	3.220859e-09	
+12	2.500000e+01	0.000000e+00	0.000000e+00	4.652310e-09	
+13	2.500000e+01	0.000000e+00	0.000000e+00	6.486293e-09	
+14	2.500000e+01	0.000000e+00	0.000000e+00	8.803171e-09	
+15	2.500000e+01	0.000000e+00	0.000000e+00	1.169714e-08	
+16	2.500000e+01	0.000000e+00	0.000000e+00	1.527844e-08	
+17	2.500000e+01	0.000000e+00	0.000000e+00	1.967573e-08	
+18	2.500000e+01	0.000000e+00	0.000000e+00	2.503884e-08	
+19	2.500000e+01	0.000000e+00	0.000000e+00	3.154186e-08	
+20	2.500000e+01	0.000000e+00	0.000000e+00	3.938667e-08	
+21	2.500000e+01	0.000000e+00	0.000000e+00	4.880704e-08	
+22	2.500000e+01	0.000000e+00	0.000000e+00	6.007329e-08	
+
+                             * conduction nmos w *
+                             DC transfer characteristic  Tue Mar  5 16:27:38  2024
+--------------------------------------------------------------------------------
+Index   temp-sweep      i(vg)           i(vs)           i(vb)           
+--------------------------------------------------------------------------------
+0	2.500000e+01	6.546070e-20	-4.28624e-21	-5.68882e-20	
+1	2.500000e+01	-3.30098e-11	1.650471e-11	3.595089e-16	
+2	2.500000e+01	-3.32274e-11	1.661329e-11	7.858233e-16	
+3	2.500000e+01	-1.09081e-11	5.453400e-12	1.292318e-15	
+4	2.500000e+01	-4.25007e-11	2.124939e-11	1.917833e-15	
+5	2.500000e+01	-1.32333e-10	6.616498e-11	2.787035e-15	
+6	2.500000e+01	-2.97636e-10	1.488158e-10	4.265105e-15	
+7	2.500000e+01	-6.64697e-10	3.323450e-10	7.325877e-15	
+8	2.500000e+01	-1.42056e-09	7.102731e-10	1.448107e-14	
+9	2.500000e+01	-2.60302e-09	1.301496e-09	3.216103e-14	
+10	2.500000e+01	-4.24676e-09	2.123343e-09	7.661372e-14	
+11	2.500000e+01	-6.44191e-09	3.220859e-09	1.882565e-13	
+12	2.500000e+01	-9.30509e-09	4.652310e-09	4.664676e-13	
+13	2.500000e+01	-1.29737e-08	6.486293e-09	1.153735e-12	
+14	2.500000e+01	-1.76092e-08	8.803171e-09	2.838474e-12	
+15	2.500000e+01	-2.34012e-08	1.169714e-08	6.941977e-12	
+16	2.500000e+01	-3.05738e-08	1.527844e-08	1.688261e-11	
+17	2.500000e+01	-3.93923e-08	1.967573e-08	4.084471e-11	
+18	2.500000e+01	-5.01760e-08	2.503884e-08	9.831523e-11	
+19	2.500000e+01	-6.33190e-08	3.154186e-08	2.353313e-10	
+20	2.500000e+01	-7.93326e-08	3.938667e-08	5.593139e-10	
+21	2.500000e+01	-9.89298e-08	4.880704e-08	1.315699e-09	
+22	2.500000e+01	-1.23192e-07	6.007329e-08	3.045201e-09	
