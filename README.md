@@ -58,4 +58,3 @@ This project aims to characterize MOSFET behavior using Ngspice. We analyze the 
 - Srujana Vanka
 
 ---
-
