@@ -1,0 +1,197 @@
+******
+** ngspice-27 : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Tue Dec 26 17:10:20 UTC 2017
+******
+
+Circuit: * conduction nmos w1 *
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: This model is BSIM4.5.0; you specified a wrong version number '4.0'.
+
+No. of Data Rows : 23
+                             * conduction nmos w1 *
+                             DC transfer characteristic  Tue Mar  5 13:47:20  2024
+--------------------------------------------------------------------------------
+Index   v-sweep         abs(v(alim))    v(drain)        v(gate)         
+--------------------------------------------------------------------------------
+0	2.500000e+01	0.000000e+00	0.000000e+00	0.000000e+00	
+1	2.500000e+01	5.000000e-02	0.000000e+00	5.000000e-02	
+2	2.500000e+01	1.000000e-01	0.000000e+00	1.000000e-01	
+3	2.500000e+01	1.500000e-01	0.000000e+00	1.500000e-01	
+4	2.500000e+01	2.000000e-01	0.000000e+00	2.000000e-01	
+5	2.500000e+01	2.500000e-01	0.000000e+00	2.500000e-01	
+6	2.500000e+01	3.000000e-01	0.000000e+00	3.000000e-01	
+7	2.500000e+01	3.500000e-01	0.000000e+00	3.500000e-01	
+8	2.500000e+01	4.000000e-01	0.000000e+00	4.000000e-01	
+9	2.500000e+01	4.500000e-01	0.000000e+00	4.500000e-01	
+10	2.500000e+01	5.000000e-01	0.000000e+00	5.000000e-01	
+11	2.500000e+01	5.500000e-01	0.000000e+00	5.500000e-01	
+12	2.500000e+01	6.000000e-01	0.000000e+00	6.000000e-01	
+13	2.500000e+01	6.500000e-01	0.000000e+00	6.500000e-01	
+14	2.500000e+01	7.000000e-01	0.000000e+00	7.000000e-01	
+15	2.500000e+01	7.500000e-01	0.000000e+00	7.500000e-01	
+16	2.500000e+01	8.000000e-01	0.000000e+00	8.000000e-01	
+17	2.500000e+01	8.500000e-01	0.000000e+00	8.500000e-01	
+18	2.500000e+01	9.000000e-01	0.000000e+00	9.000000e-01	
+19	2.500000e+01	9.500000e-01	0.000000e+00	9.500000e-01	
+20	2.500000e+01	1.000000e+00	0.000000e+00	1.000000e+00	
+21	2.500000e+01	1.050000e+00	0.000000e+00	1.050000e+00	
+22	2.500000e+01	1.100000e+00	0.000000e+00	1.100000e+00	
+
+                             * conduction nmos w1 *
+                             DC transfer characteristic  Tue Mar  5 13:47:20  2024
+--------------------------------------------------------------------------------
+Index   v-sweep         v(source)       v(body)         i(vd)           
+--------------------------------------------------------------------------------
+0	2.500000e+01	0.000000e+00	0.000000e+00	-5.76988e-21	
+1	2.500000e+01	0.000000e+00	0.000000e+00	2.221788e-11	
+2	2.500000e+01	0.000000e+00	0.000000e+00	2.236404e-11	
+3	2.500000e+01	0.000000e+00	0.000000e+00	7.341115e-12	
+4	2.500000e+01	0.000000e+00	0.000000e+00	2.860495e-11	
+5	2.500000e+01	0.000000e+00	0.000000e+00	8.906825e-11	
+6	2.500000e+01	0.000000e+00	0.000000e+00	2.003289e-10	
+7	2.500000e+01	0.000000e+00	0.000000e+00	4.473876e-10	
+8	2.500000e+01	0.000000e+00	0.000000e+00	9.561368e-10	
+9	2.500000e+01	0.000000e+00	0.000000e+00	1.752014e-09	
+10	2.500000e+01	0.000000e+00	0.000000e+00	2.858347e-09	
+11	2.500000e+01	0.000000e+00	0.000000e+00	4.335772e-09	
+12	2.500000e+01	0.000000e+00	0.000000e+00	6.262724e-09	
+13	2.500000e+01	0.000000e+00	0.000000e+00	8.731548e-09	
+14	2.500000e+01	0.000000e+00	0.000000e+00	1.185042e-08	
+15	2.500000e+01	0.000000e+00	0.000000e+00	1.574615e-08	
+16	2.500000e+01	0.000000e+00	0.000000e+00	2.056712e-08	
+17	2.500000e+01	0.000000e+00	0.000000e+00	2.648655e-08	
+18	2.500000e+01	0.000000e+00	0.000000e+00	3.370612e-08	
+19	2.500000e+01	0.000000e+00	0.000000e+00	4.246018e-08	
+20	2.500000e+01	0.000000e+00	0.000000e+00	5.302049e-08	
+21	2.500000e+01	0.000000e+00	0.000000e+00	6.570176e-08	
+22	2.500000e+01	0.000000e+00	0.000000e+00	8.086785e-08	
+
+                             * conduction nmos w1 *
+                             DC transfer characteristic  Tue Mar  5 13:47:20  2024
+--------------------------------------------------------------------------------
+Index   v-sweep         i(vg)           i(vs)           i(vb)           
+--------------------------------------------------------------------------------
+0	2.500000e+01	8.811933e-20	-5.76988e-21	-7.65796e-20	
+1	2.500000e+01	-4.44362e-11	2.221788e-11	4.839543e-16	
+2	2.500000e+01	-4.47291e-11	2.236404e-11	1.057839e-15	
+3	2.500000e+01	-1.46840e-11	7.341115e-12	1.739659e-15	
+4	2.500000e+01	-5.72125e-11	2.860495e-11	2.581698e-15	
+5	2.500000e+01	-1.78140e-10	8.906825e-11	3.751778e-15	
+6	2.500000e+01	-4.00664e-10	2.003289e-10	5.741487e-15	
+7	2.500000e+01	-8.94785e-10	4.473876e-10	9.861757e-15	
+8	2.500000e+01	-1.91229e-09	9.561368e-10	1.949375e-14	
+9	2.500000e+01	-3.50407e-09	1.752014e-09	4.329370e-14	
+10	2.500000e+01	-5.71680e-09	2.858347e-09	1.031338e-13	
+11	2.500000e+01	-8.67180e-09	4.335772e-09	2.534221e-13	
+12	2.500000e+01	-1.25261e-08	6.262724e-09	6.279370e-13	
+13	2.500000e+01	-1.74646e-08	8.731548e-09	1.553104e-12	
+14	2.500000e+01	-2.37047e-08	1.185042e-08	3.821021e-12	
+15	2.500000e+01	-3.15016e-08	1.574615e-08	9.344966e-12	
+16	2.500000e+01	-4.11570e-08	2.056712e-08	2.272658e-11	
+17	2.500000e+01	-5.30281e-08	2.648655e-08	5.498322e-11	
+18	2.500000e+01	-6.75446e-08	3.370612e-08	1.323473e-10	
+19	2.500000e+01	-8.52371e-08	4.246018e-08	3.167918e-10	
+20	2.500000e+01	-1.06794e-07	5.302049e-08	7.529214e-10	
+21	2.500000e+01	-1.33175e-07	6.570176e-08	1.771130e-09	
+22	2.500000e+01	-1.65835e-07	8.086785e-08	4.099300e-09	
