@@ -1,0 +1,63 @@
+******
+** ngspice-36 : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2020, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Sat Jan  1 18:54:42 UTC 2022
+******
+
+No compatibility mode selected!
+
+
+Circuit: * pmos stack *
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+
+No. of Data Rows : 1
+v(sup) = 1.100000e+00
+v(a) = 0.000000e+00
+v(b) = 0.000000e+00
+v(x) = 3.815347e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+
+No. of Data Rows : 1
+v(sup) = 1.100000e+00
+v(a) = 0.000000e+00
+v(b) = 1.100000e+00
+v(x) = 2.277686e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+
+No. of Data Rows : 1
+v(sup) = 1.100000e+00
+v(a) = 1.100000e+00
+v(b) = 0.000000e+00
+v(x) = 8.998845e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+
+No. of Data Rows : 1
+v(sup) = 0.000000e+00
+v(a) = 1.100000e+00
+v(b) = 1.100000e+00
+v(x) = 3.884222e-05

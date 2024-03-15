@@ -1,0 +1,48 @@
+* NMOS STACK *
+**************
+
+.INCLUDE ../45nm_MGK.pm
+.OPTIONS GMIN=1e-020 ABSTOL=1e-18
+
+* Defining parameters
+.PARAM Lmin=45n
+.PARAM Wmin=45n
+.PARAM Ldiff=90n
+	
+* Description of the transistor
+Mn1   sup   A   X   0   nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+Mn2   X     B   0   0   nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+* Initial Parameters
+Vdd   sup   0
+Va    A     0
+Vb    B     0
+
+* Analysis Parameters
+.CONTROL
+
+alter Vdd = 1.1
+let v1 = 0
+while v1 le 1.1
+	alter Va = v1	
+  	let v2 = 0
+	
+ 	while v2 le 1.1
+		alter Vb = v2
+
+		if v1 > 0
+			if v2 > 0
+				alter Vdd = 0
+			end
+		end 
+			
+		dc TEMP 25 30 10
+		print V(sup) V(A) V(B) V(X) 
+
+    let v2 = v2 + 1.1
+	end	   
+ 	let v1 = v1 + 1.1
+end
+
+.ENDC
+.END
