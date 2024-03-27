@@ -37,3 +37,5 @@ For each input case (00, 01, 10, 11), the simulation results for both NMOS and P
   - Intermediate node voltage (v(x)): 3.884222e-05 
 
 These values reflect the behavior of the transistor stacks under different input conditions. Parameters such as supply voltage (1.1V) and temperature (25°C) influence these outcomes.
+
+---
