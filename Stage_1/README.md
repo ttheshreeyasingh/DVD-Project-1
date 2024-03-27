@@ -1,13 +1,14 @@
-# DVD-Project-1
+# DVD-Project-1 Stage 1
 
 ## Overview
-This project aims to characterize MOSFET behavior using Ngspice. We analyze the performance of MOSFETs under different conditions such as varying transistor widths and supply voltages.
+The objective of DVD-Project-1 Stage 1 is to characterize MOSFET behavior using Ngspice. This stage involves analyzing the performance of MOSFETs under varying transistor widths and supply voltages.
 
 ## Requirements
+To execute the simulations for Stage 1, ensure you have the following tools installed:
 - Ngspice
 - Python
 
-## Usage
+## Instructions to Run
 
 1. Navigate to the NMOS or PMOS directory based on the type of MOSFET you want to characterize:
    ```bash
