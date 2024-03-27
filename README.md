@@ -28,7 +28,7 @@ The Final Stage involves developing a script to estimate leakage in an ISCAS 741
 ## Directory Structures
 - `stage_1`: Contains files related to Stage 1.
 - `stage_2`: Contains files related to Stage 2.
-- `final_stage`: Contains files related to leakage estimation in the ISCAS 74182 circuit.
+- `stage_3`: Contains files related to leakage estimation in the ISCAS 74182 circuit.
 
 ## Team Members
 - Sri Anvith Dosapati
