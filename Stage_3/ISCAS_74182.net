@@ -1,0 +1,133 @@
+.INCLUDE 45nm_MGK.pm
+.OPTIONS GMIN=1e-020 ABSTOL=1e-18 TEMP=25
+
+.PARAM Lmin=45n
+.PARAM Wmin=45n
+.PARAM Ldiff=90n
+
+.subckt INV 3 2 vcc 0
+
+MPmos 3 2 vcc vcc pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MNmos 3 2 0 0 nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+.ends
+
+.subckt AND2 6 2 4 vcc 0
+
+MPmos1 3 2 vcc vcc pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MPmos2 3 4 vcc vcc pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MPmos3 6 3 vcc vcc pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MNmos1 3 2 5 0 nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MNmos2 5 4 0 0 nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MNmos3 6 3 0 0 nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+.ends
+
+.subckt AND3 5 2 4 6 vcc 0
+
+xand2_1 3 2 4 vcc 0 AND2
+xand2_2 5 3 6 vcc 0 AND2
+
+.ends
+
+.subckt AND4 7 2 4 6 8 vcc 0
+
+xand2_1 3 2 4 vcc 0 AND2
+xand2_2 5 6 8 vcc 0 AND2
+xand2_3 7 3 5 vcc 0 AND2
+
+.ends
+
+
+.subckt NOR2 5 2 4 vcc 0
+
+MPmos1 3 2 vcc vcc pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MPmos2 5 4 3 vcc pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MNmos1 5 2 0 0 nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+MNmos2 5 4 0 0 nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+.ends
+
+.subckt OR2 5 2 4 vcc 0
+
+xnor2 3 2 4 vcc 0 NOR2
+xinv 5 3 vcc 0 INV
+
+.ends
+
+
+.subckt NOR3 7 2 4 6 vcc 0
+
+xnor2_1 3 2 4 vcc 0 NOR2
+xinv 5 3 vcc 0 INV
+xnor2_2 7 5 6 vcc 0 NOR2
+
+.ends
+
+.subckt NOR4 10 2 4 6 8 vcc 0
+
+xnor2_1 3 2 4 vcc 0 NOR2
+xinv_1 5 3 vcc 0 INV
+xnor2_2 7 6 8 vcc 0 NOR2
+xinv_2 9 7 vcc 0 INV
+xnor2_3 10 5 9 vcc 0 NOR2
+
+.ends
+
+.subckt OR4 7 2 4 6 8 vcc 0
+
+xor2_1 3 2 4 vcc 0 OR2
+xor2_2 5 6 8 vcc 0 OR2
+xor2_3 7 3 5 vcc 0 OR2
+
+.ends
+
+vcc1 vcc 0 dc 1.1
+va_1 p0 0 dc 1.1
+va_2 p1 0 dc 1.1
+va_3 p2 0 dc 1.1
+va_4 p3 0 dc 1.1
+vb_1 g0 0 dc 1.1
+vb_2 g1 0 dc 1.1
+vb_3 g2 0 dc 1.1
+vb_4 g3 0 dc 1.1
+vc1 c1 0 dc 1.1
+
+x_not_1 cinv c1 vcc 0 INV
+x_or4_1 p p0 p1 p2 p3 vcc 0 OR4
+x_and4_1 t1 g0 g1 g2 g3 vcc 0 AND4
+x_and4_2 t2 p1 g3 g2 g1 vcc 0 AND4
+x_and3_1 t3 p2 g3 g2 vcc 0 AND3
+x_and2_1 t4 p3 g3 vcc 0 AND2
+x_or4_2 g t1 t2 t3 t4 vcc 0 OR4
+x_and4_3 t5 g2 g1 g0 cinv vcc 0 AND4
+x_and4_4 t6 p0 g2 g1 g0 vcc 0 AND4
+x_and3_2 t7 p1 g2 g1 vcc 0 AND3
+x_and2_2 t8 p2 g2 vcc 0 AND2
+x_nor4_1 cnz t5 t6 t7 t8 vcc 0 NOR4
+x_and3_3 t9 g1 g0 cinv vcc 0 AND3
+x_and3_4 t10 p0 g1 g0 vcc 0 AND3
+x_and2_3 t11 p1 g1 vcc 0 AND2
+x_nor3_1 cny t9 t10 t11 vcc 0 NOR3
+x_and2_4 t12 g0 cinv vcc 0 AND2
+x_and2_5 t13 p0 g0 vcc 0 AND2
+x_nor2_1 cnx t12 t13 vcc 0 NOR2
+
+* .tran 0.1n 200n
+* Analysis
+
+.CONTROL
+dc TEMP 25 30 10
+print abs(V(vcc)*I(vcc1)) abs(I(va_1)+I(va_2)+I(va_3)+I(va_4)+I(vb_1)+I(vb_2)+I(vb_3)+I(vb_4)+I(vc1))
+
+.ENDC
+.END

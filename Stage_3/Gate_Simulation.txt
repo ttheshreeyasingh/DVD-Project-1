@@ -1,0 +1,25 @@
+******
+** ngspice-36 : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2020, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Sat Jan  1 18:54:42 UTC 2022
+******
+
+No compatibility mode selected!
+
+
+Circuit: *INCLUDE 45nm_MGK.pm
+
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+
+No. of Data Rows : 1
+abs(v(vcc)*i(vcc1)) = 2.393049e-06
+abs(i(va_1)+i(va_2)+i(va_3)+i(va_4)+i(vb_1)+i(vb_2)+i(vb_3)+i(vb_4)+i(vc1)) = 7.383624e-07
