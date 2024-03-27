@@ -1,4 +1,4 @@
-* PMOS STACK *
+* NMOS STACK *
 **************
 
 .INCLUDE ../45nm_MGK.pm
@@ -10,11 +10,14 @@
 .PARAM Ldiff=90n
 	
 * Description of the transistor
-Mn1   X		A   sup	sup   pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
-Mn2   0     B   X   sup   pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+Mn1   _   _   _   _   nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+Mn2   _   _   _   _   nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+Mn3   _   _   _   _   pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+Mn4   _   _   _   _   pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
 
 * Initial Parameters
-Vdd   sup   0	1.1
+Vdd   sup   0
 Va    A     0
 Vb    B     0
 

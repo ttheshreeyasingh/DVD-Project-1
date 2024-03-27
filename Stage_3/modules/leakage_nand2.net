@@ -1,0 +1,48 @@
+*Leakage current/power in NAND2 cell
+.INCLUDE ../45nm_MGK.pm
+
+.PARAM Lmin=45n
+.PARAM Wmin=45n
+.PARAM Ldiff=90n
+.PARAM XX=1
+.PARAM tr=50p
+
+Mp1	nodeZ	nodea	node1	node1	pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+Mp2	nodeZ	nodeb	node1	node1	pmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+Mn1	node4	nodeb	0	0	nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+Mn2	nodeZ	nodea	node4	0	nmos W={Wmin} L={Lmin} AS={Wmin*Ldiff} AD={Wmin*Ldiff} PS={2*(Ldiff+Wmin)} PD={2*(Ldiff+Wmin)}
+
+Vdd node1 0 1
+
+Vina nodea 0 0
+Vinb nodeb 0 0
+
+*Definition of type of analysis
+.CONTROL
+*foreach Vddbasic 1.0
+*let Vddbasic = 1
+echo _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_
+echo _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_
+echo Vdd basic = 1.1
+alter Vdd = 1.1
+foreach width 45n 
+    echo 
+	echo _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_
+	echo
+	echo WMIN=$width
+	echo
+
+	    foreach input 0 1.1
+ 	    	alter Vina = $input
+ 	    		foreach input 0 1.1 
+					alter Vinb = $input
+					echo DC Analysis at 30C and 90C
+					dc TEMP 30 90 61
+					print V(node1) V(nodeZ) V(nodea) V(nodeb) (-V(node1)*I(Vdd)) ((-V(node1)*I(Vdd))+(-V(nodea)*I(Vina))+(-V(nodeb)*I(Vinb)))
+	        	end
+	    end	 
+end
+*end
+.ENDC
+.END

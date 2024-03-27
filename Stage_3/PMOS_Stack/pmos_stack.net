@@ -37,7 +37,9 @@ while v1 le 1.1
 		end 
 			
 		dc TEMP 25 30 10
-		print V(sup) V(A) V(B) V(X) 
+    	set wr_singlescale
+		wrdata pstack.txt V(sup) V(A) V(B) V(X) ((V(A)*(I(Va))+V(B)*(I(Vb))+V(sup)*(I(Vdd))))
+		set appendwrite
 
     let v2 = v2 + 1.1
 	end	   
